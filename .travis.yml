@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- '13'
+cache:
+- yarn
+notifications:
+  email: false
+script:
+- yarn clean
+- yarn install
+- yarn build
+after_success:
+- bash ./tasks/deploy.sh
+after_failure:
+- bash ./tasks/failed.sh
+env:
+  global:
+  - GH_USER: TrondheimDeveloperConference
+  - GH_REPO_PROD: trondheimdc-2020-prod
+  - GH_REPO_TEST: test.trondheimdc.no
