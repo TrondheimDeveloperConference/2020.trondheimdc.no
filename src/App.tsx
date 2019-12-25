@@ -68,13 +68,6 @@ export default class App extends PureComponent<Props, State> {
                         <Nav className="tdc-nav" as='ul'>
                             <li className="nav-item align-self-center mx-4">
                                 <Link className="nav-link"
-                                      to="/program"
-                                      onClick={() => this.collapseMenu()}>
-                                    program
-                                </Link>
-                            </li>
-                            <li className="nav-item align-self-center mx-4">
-                                <Link className="nav-link"
                                       to="/partners"
                                       onClick={() => this.collapseMenu()}>
                                     partners

@@ -38,7 +38,7 @@ const Partners = () => {
             </div>
         </section>
 
-        <div className="container-fluid third py-5">
+        {/*<div className="container-fluid third py-5">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-2 col-md-4 my-2 partners-logo partners-logo">
@@ -153,7 +153,7 @@ const Partners = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*/}
 
         <div id="index">
             <div className="container first mb-5">

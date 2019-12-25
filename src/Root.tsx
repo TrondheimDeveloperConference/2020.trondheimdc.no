@@ -30,19 +30,19 @@ const Root: React.FC = () => {
                         <img src={bg2} className="img-fluid pr-5 pt-3 float-right" width="30%" alt='' />
                     </div>
                     <div className="col-md-6 text-left text-white mt-4">
-                        <p>TDC2020 was a great success! See videos of the talks in <Link to="/program">the program</Link>!</p>
+                        <p>TDC2019 was a great success! See videos of the talks in <a href="https://2019.trondheimdc.no/program">the program</a>!</p>
 
                         <p>The date for Trondheim Developer Conference 2020 is 26th October! Reserve the date now!</p>
 
                         <p>Trondheim Developer Conference – A community-driven conference for people in the Trondheim
-                            region will be seven years old in 2020! Don’t miss out on a day of inspiring tech talks,
+                            region will be eigth years old in 2020! Don’t miss out on a day of inspiring tech talks,
                             a day of hands-on sessions, mingling, and a great party!</p>
 
                         <p>TDC is organized by several of Trondheim's meetups. Our goal is to organize a community-driven
                             conference for the regions developers where they can learn new things, share knowledge, and socialize.</p>
 
                         <p>We have been organizing TDC since 2012 and have been excited to watch the event grow bigger
-                            and better every year. In 2018 we hosted about 700 participants and 20 speakers across 5 parallel tracks.
+                            and better every year. In 2019 we hosted about 700 participants and 20 speakers across 5 parallel tracks.
                             In addition, we also offered a selection of 9 workshops held on the day after the conference.</p>
 
                         <p>We would not be what we are today without YOU! Thank you for your support and contributions over the years.</p>
@@ -147,7 +147,7 @@ const Root: React.FC = () => {
                         <div className="col-md-3 where text-left">
                             <h5 className="p-2 text-dark"><img src={calendar} className="img-fluid align-top" width="8%" alt='Dataforeningen'/>&nbsp;Speakers</h5>
                             <div className="where py-4 pl-5 text-white">
-                                28 speakers<br/>
+                                ~30 speakers<br/>
                                 &nbsp;<br/>
                                 &nbsp;<br/>
                                 &nbsp;<br/>
@@ -157,7 +157,7 @@ const Root: React.FC = () => {
                         <div className="col-md-3 where text-left">
                             <h5 className="p-2 text-dark"><img src={calendar} className="img-fluid align-top" width="8%" alt='Dataforeningen'/>&nbsp;Stands</h5>
                             <div className="where py-4 pl-5 text-white">
-                                29 stands<br/>
+                                ~30 stands<br/>
                                 &nbsp;<br/>
                                 &nbsp;<br/>
                                 &nbsp;<br/>
