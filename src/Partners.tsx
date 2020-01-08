@@ -2,7 +2,7 @@ import React from 'react';
 
 import partners_jumbotron from './media/img/jumbotron/partners_jumbotron.png';
 import partner_background from './media/img/coc_background.png';
-
+/*
 import bekk from './media/img/partners/bekk.svg';
 import bouvet from './media/img/partners/bouvet.svg';
 import centric from './media/img/partners/centric.svg';
@@ -25,7 +25,7 @@ import sticos from './media/img/partners/sticos.svg';
 import uninett from './media/img/partners/uninett.svg';
 import variant from './media/img/partners/variant.svg';
 import webstep from './media/img/partners/webstep.svg';
-
+*/
 
 const Partners = () => {
     return <>
