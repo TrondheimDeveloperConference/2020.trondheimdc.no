@@ -13,6 +13,7 @@ import twitter from './media/img/icons/twitter.svg';
 import email from './media/img/icons/email.svg';
 import Root from "./Root";
 import Partners from "./Partners";
+import Speakers from "./Speakers";
 import Startups from "./Startups";
 import CoC from "./CodeOfConduct";
 import Program from "./program/Program";
@@ -68,6 +69,13 @@ export default class App extends PureComponent<Props, State> {
                         <Nav className="tdc-nav" as='ul'>
                             <li className="nav-item align-self-center mx-4">
                                 <Link className="nav-link"
+                                      to="/speakers"
+                                      onClick={() => this.collapseMenu()}>
+                                    speakers
+                                </Link>
+                            </li>
+                            <li className="nav-item align-self-center mx-4">
+                                <Link className="nav-link"
                                       to="/partners"
                                       onClick={() => this.collapseMenu()}>
                                     partners
@@ -99,6 +107,9 @@ export default class App extends PureComponent<Props, State> {
                     </Route>
                     <Route exact path="/program">
                         <Program />
+                    </Route>
+                    <Route exact path="/speakers">
+                        <Speakers />
                     </Route>
                     <Route exact path="/program/:sessionId">
                         <Session />

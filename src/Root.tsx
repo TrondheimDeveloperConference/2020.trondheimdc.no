@@ -10,7 +10,6 @@ import ixda from './media/img/index/ixda.svg';
 import javabin from './media/img/index/javabin.svg';
 import nnug from './media/img/index/nnug.svg';
 import spillmakerlauget from './media/img/index/spillmakerlauget.svg';
-import {Link} from "react-router-dom";
 
 const Root: React.FC = () => {
     return <>
@@ -26,7 +25,7 @@ const Root: React.FC = () => {
             <div className="container first mb-5">
                 <div className="d-md-flex flex-md-equal">
                     <div className="col-md-6">
-                        <h1 className="text-lg-right text-md-right text-sm-left pr-5 pt-4 text-white">TDC 2020 has passed!</h1>
+                        <h1 className="text-lg-right text-md-right text-sm-left pr-5 pt-4 text-white">Prepare for TDC 2020</h1>
                         <img src={bg2} className="img-fluid pr-5 pt-3 float-right" width="30%" alt='' />
                     </div>
                     <div className="col-md-6 text-left text-white mt-4">
@@ -58,12 +57,6 @@ const Root: React.FC = () => {
                         <img src={index01} className="img-fluid mb-5 border-bottom-right" width="80%" alt=''/>
                     </div>
                     <div className="col-md-4 text-left text-white mt-0">
-                        <p>The <Link to="/program">program for TDC 2020</Link> consists of multiple tracks for
-                            front-end, back-end, agile developers, and
-                            digital design. The conference strives to reach a balance between local, national and
-                            international speakers, and call-for-presentation submissions.
-                        </p>
-
                         <p>TDC is a noncommercial event where all profit goes towards the next year’s conference and other
                             community events throughout the year in Trondheim</p>
 
