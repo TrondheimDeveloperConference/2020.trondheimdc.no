@@ -22,6 +22,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from "react-bootstrap/Nav";
 import ScrollToTop from "./ScrollToTop";
 import Tickets from "./Tickets";
+import About from "./About";
 
 interface Props { }
 interface State {
@@ -97,6 +98,14 @@ export default class App extends PureComponent<Props, State> {
                                     code of conduct
                                 </Link>
                             </li>
+
+                            <li className="nav-item align-self-center mx-4">
+                                <Link className="nav-link"
+                                      to="/about"
+                                      onClick={() => this.collapseMenu()}>
+                                    about
+                                </Link>
+                            </li>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -125,6 +134,9 @@ export default class App extends PureComponent<Props, State> {
                     </Route>
                     <Route exact path="/conduct">
                         <CoC />
+                    </Route>
+                    <Route exact path="/about">
+                        <About />
                     </Route>
                 </Switch>
 
